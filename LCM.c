@@ -3,7 +3,7 @@ int main()
 {
     int x,y,res;
     scanf("%d %d",&x,&y);
-    res=x>y?x:y;
+    res=(x>y)?x:y;
     while(1)
     {
         if(res%x==0 && res%y==0)
@@ -13,5 +13,4 @@ int main()
         }
         ++res;
     }
-    return 0;
 }
